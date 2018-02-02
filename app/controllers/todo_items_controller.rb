@@ -14,5 +14,4 @@ class TodoItemsController < ApplicationController
 		params[:todo_item].permit(:content)
 	end
 
-
 end
