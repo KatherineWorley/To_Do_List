@@ -1,0 +1,1 @@
+<p><%= todo_item.content %></p>
