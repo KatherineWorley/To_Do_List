@@ -11,8 +11,8 @@
 </p>
 
 <div id="todo_items_wrapper">
-	<% render @todo_list.todo_items %>
-	<%= render "dodo_items/form" %>
+	<%= render @todo_list.todo_items %>
+	<%= render "todo_items/form" %>
 </div>
 
 <%= link_to 'Edit', edit_todo_list_path(@todo_list) %> |
